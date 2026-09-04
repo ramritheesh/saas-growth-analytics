@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13,<3.14"
 license = { text = "MIT" }
 authors = [{ name = "Vijaya Supreetha Gurrala" }]
+package-mode = false
 dependencies = [
     "pandas>=2.2",
     "numpy>=2.0",
