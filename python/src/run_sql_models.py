@@ -35,6 +35,8 @@ MART_ORDER = [
     "mart_cohort_retention",
     "mart_experiment_results",
     "mart_product_growth_daily",
+    "mart_customer_intelligence",
+    "mart_revenue_risk",
 ]
 
 

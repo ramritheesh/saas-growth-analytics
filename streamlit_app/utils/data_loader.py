@@ -36,5 +36,8 @@ def load_daily_growth() -> pd.DataFrame:
 @st.cache_data
 def load_churn_scores() -> pd.DataFrame:
     from python.src.analysis import score_churn_risk
-
     return score_churn_risk()
+
+@st.cache_data
+def load_customer_intelligence() -> pd.DataFrame:
+    return pd.read_parquet(PROCESSED_DIR / "mart_customer_intelligence.parquet")
