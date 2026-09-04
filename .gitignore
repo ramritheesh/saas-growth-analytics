@@ -220,3 +220,10 @@ __marimo__/
 # Project-specific
 data/raw/
 data/processed/
+.DS_Store
+
+# macOS
+.DS_Store
+
+# Local backups
+README_backup.md
